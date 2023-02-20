@@ -1,4 +1,5 @@
 local opt = vim.opt 
+vim.env.OPENAI_API_KEY = "tu clave aqui"
 
 -- line numbers
 --
@@ -29,3 +30,4 @@ opt.clipboard:append("unnamedplus");
 
 opt.splitright = true
 opt.splitbelow = true
+--opt.completefunc=syntaxcomplete#Complete
