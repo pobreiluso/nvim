@@ -8,6 +8,6 @@ require('telescope').setup{
     file_sorter = require'telescope.sorters'.get_fzy_sorter,
     prompt_prefix = "> ",
     color_devicons = true,
-    cwd = vim.loop.cwd(),
+    -- cwd = vim.loop.cwd(),
   }
 }

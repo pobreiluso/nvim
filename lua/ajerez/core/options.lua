@@ -1,5 +1,8 @@
-local opt = vim.opt 
-vim.env.OPENAI_API_KEY = "tu clave aqui"
+local opt = vim.opt
+
+local openapikey = os.getenv("OPEN_API_KEY")
+
+vim.env.OPENAI_API_KEY = openapikey
 
 -- line numbers
 --
